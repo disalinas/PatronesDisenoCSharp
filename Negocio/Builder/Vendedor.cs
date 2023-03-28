@@ -1,5 +1,5 @@
-﻿using Modelos.Documentacion.Formato;
-using Modelos.Documentacion.Vehiculo;
+﻿using Negocio.Documentacion.Formato;
+using Negocio.Documentacion.Vehiculo;
 using System;
 using System.Collections.Generic;
 using System.Linq;

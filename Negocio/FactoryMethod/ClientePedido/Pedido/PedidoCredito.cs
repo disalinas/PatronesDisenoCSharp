@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelos.ClientePedido.Pedido
+namespace Negocio.ClientePedido.Pedido
 {
     public class PedidoCredito : APedido
     {

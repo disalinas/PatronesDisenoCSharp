@@ -43,7 +43,19 @@
   <ItemGroup>
     <Compile Include="AbstractFactory\Catalogo.cs" />
     <Compile Include="Builder\ClienteVehiculo.cs" />
+    <Compile Include="Builder\Documentacion\Formato\ADocumentacion.cs" />
+    <Compile Include="Builder\Documentacion\Formato\DocumentacionHTML.cs" />
+    <Compile Include="Builder\Documentacion\Formato\DocumentacionPDF.cs" />
+    <Compile Include="Builder\Documentacion\Vehiculo\AConstructorDocumentacionVehiculo.cs" />
+    <Compile Include="Builder\Documentacion\Vehiculo\ConstructorDocumentacionVehiculoHTML.cs" />
+    <Compile Include="Builder\Documentacion\Vehiculo\ConstructorDocumentacionVehiculoPDF.cs" />
     <Compile Include="Builder\Vendedor.cs" />
+    <Compile Include="FactoryMethod\ClientePedido\Pedido\APedido.cs" />
+    <Compile Include="FactoryMethod\ClientePedido\Pedido\PedidoContado.cs" />
+    <Compile Include="FactoryMethod\ClientePedido\Pedido\PedidoCredito.cs" />
+    <Compile Include="FactoryMethod\ClientePedido\Tipo\ACliente.cs" />
+    <Compile Include="FactoryMethod\ClientePedido\Tipo\ClienteContado.cs" />
+    <Compile Include="FactoryMethod\ClientePedido\Tipo\ClienteCredito.cs" />
     <Compile Include="FactoryMethod\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +65,9 @@
       <Name>Modelos</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Builder\Documentacion\Patrón Builder.txt" />
+    <Content Include="FactoryMethod\ClientePedido\Patrón Factory Method.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

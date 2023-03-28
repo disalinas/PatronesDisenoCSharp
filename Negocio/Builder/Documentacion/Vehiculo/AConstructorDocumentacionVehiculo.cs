@@ -1,11 +1,11 @@
-﻿using Modelos.Documentacion.Formato;
+﻿using Negocio.Documentacion.Formato;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelos.Documentacion.Vehiculo
+namespace Negocio.Documentacion.Vehiculo
 {
     public abstract class AConstructorDocumentacionVehiculo
     {

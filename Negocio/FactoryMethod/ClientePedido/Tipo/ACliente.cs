@@ -1,11 +1,11 @@
-﻿using Modelos.ClientePedido.Pedido;
+﻿using Negocio.ClientePedido.Pedido;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelos.ClientePedido.Tipo
+namespace Negocio.ClientePedido.Tipo
 {
     public abstract class ACliente
     {

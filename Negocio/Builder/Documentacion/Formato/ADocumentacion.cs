@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelos.Documentacion.Formato
+namespace Negocio.Documentacion.Formato
 {
     public abstract class ADocumentacion
     {

@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelos.Documentacion.Formato
+namespace Negocio.Documentacion.Formato
 {
-    public class DocumentacionHTML : ADocumentacion
+    class DocumentacionPDF : ADocumentacion
     {
         public override void AgregarDocumento(string pDocumento)
         {
-            if (pDocumento.StartsWith("<HTML>"))
+            if (pDocumento.StartsWith("<PDF>"))
                 this.contenido.Add(pDocumento);
         }
 
         public override void Imprime()
         {
-            Console.WriteLine("Documentación HTML");
+            Console.WriteLine("Documentación PDF");
             foreach (string s in contenido)
             {
                 Console.WriteLine(s);

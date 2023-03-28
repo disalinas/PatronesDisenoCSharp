@@ -1,4 +1,4 @@
-﻿using Modelos.ClientePedido.Tipo;
+﻿using Negocio.ClientePedido.Tipo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
