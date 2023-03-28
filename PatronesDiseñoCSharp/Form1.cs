@@ -41,5 +41,17 @@ namespace PatronesDiseñoCSharp
             Negocio.Builder.ClienteVehiculo cliente = new Negocio.Builder.ClienteVehiculo();
             cliente.Ejecutar("2");
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Negocio.FactoryMethod.Usuario usuario = new Negocio.FactoryMethod.Usuario();
+            usuario.Ejecutar("1");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Negocio.FactoryMethod.Usuario usuario = new Negocio.FactoryMethod.Usuario();
+            usuario.Ejecutar("2");
+        }
     }
 }

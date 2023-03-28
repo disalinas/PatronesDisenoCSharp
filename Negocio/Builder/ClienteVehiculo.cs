@@ -17,7 +17,8 @@ namespace Negocio.Builder
             if ("1" == pEleccion)
             {
                 constructorDocumentacion = new ConstructorDocumentacionVehiculoHTML();
-            } else
+            } 
+            else
             {
                 constructorDocumentacion = new ConstructorDocumentacionVehiculoPDF();
             }

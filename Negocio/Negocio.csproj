@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="AbstractFactory\Catalogo.cs" />
     <Compile Include="Builder\ClienteVehiculo.cs" />
+    <Compile Include="Builder\Vendedor.cs" />
+    <Compile Include="FactoryMethod\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

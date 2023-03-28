@@ -41,13 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientePedido\Pedido\APedido.cs" />
+    <Compile Include="ClientePedido\Pedido\PedidoContado.cs" />
+    <Compile Include="ClientePedido\Pedido\PedidoCredito.cs" />
+    <Compile Include="ClientePedido\Tipo\ACliente.cs" />
+    <Compile Include="ClientePedido\Tipo\ClienteContado.cs" />
+    <Compile Include="ClientePedido\Tipo\ClienteCredito.cs" />
     <Compile Include="Documentacion\Formato\ADocumentacion.cs" />
     <Compile Include="Documentacion\Formato\DocumentacionPDF.cs" />
     <Compile Include="Documentacion\Formato\DocumentacionHTML.cs" />
     <Compile Include="Documentacion\Vehiculo\AConstructorDocumentacionVehiculo.cs" />
     <Compile Include="Documentacion\Vehiculo\ConstructorDocumentacionVehiculoHTML.cs" />
     <Compile Include="Documentacion\Vehiculo\ConstructorDocumentacionVehiculoPDF.cs" />
-    <Compile Include="Documentacion\Vendedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehiculos\Automovil\AAutomovil.cs" />
     <Compile Include="Vehiculos\Automovil\AutomovilElectrico.cs" />
@@ -61,8 +66,10 @@
     <Compile Include="Vehiculos\Motocicleta\ScooterGasolina.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClientePedido\Patrón Factory Method.txt" />
     <Content Include="Documentacion\Patrón Builder.txt" />
     <Content Include="Vehiculos\Patrón Abstract Factory.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
