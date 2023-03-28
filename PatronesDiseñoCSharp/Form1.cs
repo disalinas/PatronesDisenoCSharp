@@ -20,14 +20,26 @@ namespace PatronesDiseñoCSharp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BLL.Catalogo catalogo = new BLL.Catalogo();
+            Negocio.AbstractFactory.Catalogo catalogo = new Negocio.AbstractFactory.Catalogo();
             catalogo.Ejecutar("1");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            BLL.Catalogo catalogo = new BLL.Catalogo();
+            Negocio.AbstractFactory.Catalogo catalogo = new Negocio.AbstractFactory.Catalogo();
             catalogo.Ejecutar("2");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Negocio.Builder.ClienteVehiculo cliente = new Negocio.Builder.ClienteVehiculo();
+            cliente.Ejecutar("1");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Negocio.Builder.ClienteVehiculo cliente = new Negocio.Builder.ClienteVehiculo();
+            cliente.Ejecutar("2");
         }
     }
 }

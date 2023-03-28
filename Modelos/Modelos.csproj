@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Documentacion\Formato\ADocumentacion.cs" />
+    <Compile Include="Documentacion\Formato\DocumentacionPDF.cs" />
+    <Compile Include="Documentacion\Formato\DocumentacionHTML.cs" />
+    <Compile Include="Documentacion\Vehiculo\AConstructorDocumentacionVehiculo.cs" />
+    <Compile Include="Documentacion\Vehiculo\ConstructorDocumentacionVehiculoHTML.cs" />
+    <Compile Include="Documentacion\Vehiculo\ConstructorDocumentacionVehiculoPDF.cs" />
+    <Compile Include="Documentacion\Vendedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehiculos\Automovil\AAutomovil.cs" />
     <Compile Include="Vehiculos\Automovil\AutomovilElectrico.cs" />
@@ -52,6 +59,10 @@
     <Compile Include="Vehiculos\Motocicleta\AScooter.cs" />
     <Compile Include="Vehiculos\Motocicleta\ScooterElectrica.cs" />
     <Compile Include="Vehiculos\Motocicleta\ScooterGasolina.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentacion\Patrón Builder.txt" />
+    <Content Include="Vehiculos\Patrón Abstract Factory.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
